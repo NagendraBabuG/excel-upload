@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +32,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading{
+  margin: 5% auto;
+}
+
+
+.upload{
+  border: none;
+  margin: 70px auto;
+  background-color: white;
+}
+.container{
+  margin: auto 10%;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  height: 200px;
+}
+.submit{
+  background-color:#4CAF50;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 100px;
 }

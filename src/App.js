@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 import axios from "axios";
-import Response from "./Response";
+import Response from "./components/response/response";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faUpload } from "@fortawesome/free-solid-svg-icons";
